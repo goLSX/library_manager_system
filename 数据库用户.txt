@@ -1,0 +1,5 @@
+root ass133755@
+reader readerpassword
+manager managerpassword
+sys_manager sys_managerpassword
+checker checkerpassword

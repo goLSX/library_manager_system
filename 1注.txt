@@ -1,0 +1,16 @@
+备份后，尝试恢复时出现ERROR 1046 (3D000) at line 22: No database selected
+
+加上这两句
+CREATE DATABASE  IF NOT EXISTS `library_db`  DEFAULT CHARACTER SET utf8  DEFAULT ENCRYPTION='N' ;
+
+USE `library_db`;
+
+
+
+
+mysql 进行备份和恢复时使用自己一开始创建的root用户账户
+
+视频使用图书馆管理系统时 用户AB 密码123456
+
+flush-logs 和 reset index 是navicat备份 和 日志恢复相关的
+

@@ -1,0 +1,6 @@
+备份: mysqldump -u root -p -R library_db> C:\Users\Administrator\Desktop\library_db.sql 
+
+恢复: mysql -u root -p  < C:\Users\Administrator\Desktop\library_db.sql 
+
+恢复日志: mysqlbinlog --no-defaults mysql-bin.000001 | mysql -uroot -pass133755@
+（到日志文件目录下）

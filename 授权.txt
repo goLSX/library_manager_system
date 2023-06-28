@@ -1,0 +1,72 @@
+grant execute on procedure library_db.insert_opinion to 'reader'@'localhost';
+
+grant execute on procedure library_db.select_book_by_num to 'reader'@'localhost';
+
+grant execute on procedure library_db.select_book_message to 'reader'@'localhost';
+
+grant execute on procedure library_db.select_opinion_result_message to 'reader'@'localhost';
+
+grant execute on procedure library_db.select_reader_message to 'reader'@'localhost';
+
+grant execute on procedure library_db.select_return_message to 'reader'@'localhost';
+
+grant execute on procedure library_db.update_reader_message to 'reader'@'localhost';
+
+grant execute on procedure library_db.update_reader_password to 'reader'@'localhost';
+
+
+
+grant execute on procedure library_db.delete_book to 'manager'@'localhost';
+
+grant execute on procedure library_db.extend_time to 'manager'@'localhost';
+
+grant execute on procedure library_db.insert_book to 'manager'@'localhost';
+
+grant execute on procedure library_db.insert_borrow to 'manager'@'localhost';
+
+grant execute on procedure library_db.insert_opinion_result to 'manager'@'localhost';
+
+grant execute on procedure library_db.insert_return to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_book_by_num to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_book_message to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_borrow_by_booknum to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_manager_message to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_opinion to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_pending_opinion to 'manager'@'localhost';
+
+grant execute on procedure library_db.select_return_message to 'manager'@'localhost';
+
+grant execute on procedure library_db.update_book to 'manager'@'localhost';
+
+grant execute on procedure library_db.update_manager_message to 'manager'@'localhost';
+
+grant execute on procedure library_db.update_manager_password to 'manager'@'localhost';
+
+
+
+grant execute on procedure library_db.check_manager_sigh_up to 'sys_manager'@'localhost';
+
+grant execute on procedure library_db.delete_manager to 'sys_manager'@'localhost';
+
+grant execute on procedure library_db.insert_manager to 'sys_manager'@'localhost';
+
+grant execute on procedure library_db.select_manager_message to 'sys_manager'@'localhost';
+
+grant execute on procedure library_db.update_manager_work to 'sys_manager'@'localhost';
+
+
+
+grant execute on procedure library_db.check_manager to 'checker'@'localhost';
+
+grant execute on procedure library_db.check_reader to 'checker'@'localhost';
+
+grant execute on procedure library_db.check_reader_sigh_up to 'checker'@'localhost';
+
+grant execute on procedure library_db.insert_reader to 'checker'@'localhost';
+
